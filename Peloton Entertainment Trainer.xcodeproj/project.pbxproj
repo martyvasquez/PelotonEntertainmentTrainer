@@ -16,6 +16,15 @@
 		F4FCB0662C7D9B67005A8E07 /* Peloton_Entertainment_TrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB0652C7D9B67005A8E07 /* Peloton_Entertainment_TrainerTests.swift */; };
 		F4FCB0702C7D9B67005A8E07 /* Peloton_Entertainment_TrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB06F2C7D9B67005A8E07 /* Peloton_Entertainment_TrainerUITests.swift */; };
 		F4FCB0722C7D9B67005A8E07 /* Peloton_Entertainment_TrainerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB0712C7D9B67005A8E07 /* Peloton_Entertainment_TrainerUITestsLaunchTests.swift */; };
+		F4FCB07F2C7D9C13005A8E07 /* WorkoutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB07E2C7D9C13005A8E07 /* WorkoutStore.swift */; };
+		F4FCB0812C7D9C7E005A8E07 /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB0802C7D9C7E005A8E07 /* WorkoutListView.swift */; };
+		F4FCB0832C7D9CAC005A8E07 /* CreateWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB0822C7D9CAC005A8E07 /* CreateWorkoutView.swift */; };
+		F4FCB0852C7D9CD5005A8E07 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB0842C7D9CD5005A8E07 /* WorkoutDetailView.swift */; };
+		F4FCB0872C7D9CF9005A8E07 /* ActiveWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB0862C7D9CF9005A8E07 /* ActiveWorkoutView.swift */; };
+		F4FCB08A2C7D9E95005A8E07 /* PelotonEntertainmentTrainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB0882C7D9E95005A8E07 /* PelotonEntertainmentTrainer.xcdatamodeld */; };
+		F4FCB08C2C7DAC6E005A8E07 /* EditWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB08B2C7DAC6E005A8E07 /* EditWorkoutView.swift */; };
+		F4FCB08E2C7DADF7005A8E07 /* IntervalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB08D2C7DADF7005A8E07 /* IntervalRow.swift */; };
+		F4FCB0902C7E1A41005A8E07 /* Workout+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCB08F2C7E1A41005A8E07 /* Workout+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,15 @@
 		F4FCB06B2C7D9B67005A8E07 /* Peloton Entertainment TrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peloton Entertainment TrainerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FCB06F2C7D9B67005A8E07 /* Peloton_Entertainment_TrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peloton_Entertainment_TrainerUITests.swift; sourceTree = "<group>"; };
 		F4FCB0712C7D9B67005A8E07 /* Peloton_Entertainment_TrainerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peloton_Entertainment_TrainerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4FCB07E2C7D9C13005A8E07 /* WorkoutStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStore.swift; sourceTree = "<group>"; };
+		F4FCB0802C7D9C7E005A8E07 /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		F4FCB0822C7D9CAC005A8E07 /* CreateWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutView.swift; sourceTree = "<group>"; };
+		F4FCB0842C7D9CD5005A8E07 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		F4FCB0862C7D9CF9005A8E07 /* ActiveWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveWorkoutView.swift; sourceTree = "<group>"; };
+		F4FCB0892C7D9E95005A8E07 /* PelotonEntertainmentTrainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PelotonEntertainmentTrainer.xcdatamodel; sourceTree = "<group>"; };
+		F4FCB08B2C7DAC6E005A8E07 /* EditWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorkoutView.swift; sourceTree = "<group>"; };
+		F4FCB08D2C7DADF7005A8E07 /* IntervalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalRow.swift; sourceTree = "<group>"; };
+		F4FCB08F2C7E1A41005A8E07 /* Workout+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workout+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +117,20 @@
 			isa = PBXGroup;
 			children = (
 				F4FCB04F2C7D9B65005A8E07 /* Peloton_Entertainment_TrainerApp.swift */,
+				F4FCB08B2C7DAC6E005A8E07 /* EditWorkoutView.swift */,
 				F4FCB0512C7D9B65005A8E07 /* ContentView.swift */,
 				F4FCB0532C7D9B67005A8E07 /* Assets.xcassets */,
 				F4FCB0582C7D9B67005A8E07 /* Persistence.swift */,
 				F4FCB05A2C7D9B67005A8E07 /* Peloton_Entertainment_Trainer.xcdatamodeld */,
 				F4FCB0552C7D9B67005A8E07 /* Preview Content */,
+				F4FCB07E2C7D9C13005A8E07 /* WorkoutStore.swift */,
+				F4FCB0802C7D9C7E005A8E07 /* WorkoutListView.swift */,
+				F4FCB0822C7D9CAC005A8E07 /* CreateWorkoutView.swift */,
+				F4FCB08D2C7DADF7005A8E07 /* IntervalRow.swift */,
+				F4FCB0842C7D9CD5005A8E07 /* WorkoutDetailView.swift */,
+				F4FCB0862C7D9CF9005A8E07 /* ActiveWorkoutView.swift */,
+				F4FCB08F2C7E1A41005A8E07 /* Workout+Extensions.swift */,
+				F4FCB0882C7D9E95005A8E07 /* PelotonEntertainmentTrainer.xcdatamodeld */,
 			);
 			path = "Peloton Entertainment Trainer";
 			sourceTree = "<group>";
@@ -263,9 +290,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FCB0902C7E1A41005A8E07 /* Workout+Extensions.swift in Sources */,
+				F4FCB0832C7D9CAC005A8E07 /* CreateWorkoutView.swift in Sources */,
+				F4FCB08E2C7DADF7005A8E07 /* IntervalRow.swift in Sources */,
 				F4FCB05C2C7D9B67005A8E07 /* Peloton_Entertainment_Trainer.xcdatamodeld in Sources */,
+				F4FCB0872C7D9CF9005A8E07 /* ActiveWorkoutView.swift in Sources */,
 				F4FCB0592C7D9B67005A8E07 /* Persistence.swift in Sources */,
+				F4FCB08A2C7D9E95005A8E07 /* PelotonEntertainmentTrainer.xcdatamodeld in Sources */,
+				F4FCB0852C7D9CD5005A8E07 /* WorkoutDetailView.swift in Sources */,
+				F4FCB0812C7D9C7E005A8E07 /* WorkoutListView.swift in Sources */,
+				F4FCB07F2C7D9C13005A8E07 /* WorkoutStore.swift in Sources */,
 				F4FCB0522C7D9B65005A8E07 /* ContentView.swift in Sources */,
+				F4FCB08C2C7DAC6E005A8E07 /* EditWorkoutView.swift in Sources */,
 				F4FCB0502C7D9B65005A8E07 /* Peloton_Entertainment_TrainerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,6 +635,17 @@
 			);
 			currentVersion = F4FCB05B2C7D9B67005A8E07 /* Peloton_Entertainment_Trainer.xcdatamodel */;
 			path = Peloton_Entertainment_Trainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F4FCB0882C7D9E95005A8E07 /* PelotonEntertainmentTrainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4FCB0892C7D9E95005A8E07 /* PelotonEntertainmentTrainer.xcdatamodel */,
+			);
+			currentVersion = F4FCB0892C7D9E95005A8E07 /* PelotonEntertainmentTrainer.xcdatamodel */;
+			name = PelotonEntertainmentTrainer.xcdatamodeld;
+			path = "/Users/martyvasquez/Development/Peloton Entertainment Trainer/Peloton Entertainment Trainer/PelotonEntertainmentTrainer.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
